@@ -34,6 +34,9 @@ func main(){
 		if err := http.ListenAndServe(":8070", nil); err != nil {
 			fmt.Println(err)
 		}
+		biliboba := [5]int{1,2,3,4,5}
+		
+
 	}()
 	
 	config := NewTestConfig()
